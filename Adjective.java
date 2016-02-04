@@ -6,6 +6,7 @@ public class Adjective {
 
     System.out.println("Give me an adjective");
     String adjectiveSelect = myConsole.readLine();
+    System.out.println("Give me a noun");
     System.out.println("The selected adjective is " + adjectiveSelect + "?Me too!");
   }
 }
